@@ -1,9 +1,9 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 const axios = require('axios');
 
-const token = 'MTE3MjU4MzUxOTgzMTIwODAyOA.Ggy8J8.-poRTf24S6X8lCe2btP5qIldlRl-jN0fE1jiNA';
+const token = 'Discord Bot Token (Cant use it here)';
 
-const weatherstackApiKey = '2b4d78b9a41d7c8c8863df817c5aa763';
+const weatherstackApiKey = 'Weather Api Key here';
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
